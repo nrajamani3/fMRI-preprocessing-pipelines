@@ -6,7 +6,8 @@ import os
 import glob
 import csv
 
-path_of_interest = '/Users/nanditharajamani/dicomm/nki_5/dicom/triotim/mmilham/discoverysci_30001/A00056306/439818296_V2/REST_CAP_0005'
+path_of_interest = '/path/to/dicom/folder'
+    #'/Users/nanditharajamani/dicomm/nki_5/dicom/triotim/mmilham/discoverysci_30001/A00056306/439818296_V2/REST_CAP_0005'
 list_of_dicom = os.listdir(path_of_interest)
 os.chdir(path_of_interest)
 #this isn't necessary but it might serve as a good QC
